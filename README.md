@@ -1,5 +1,18 @@
 # av-autobind
-A tiny utility to automatically bind class methods to their instance, allowing you to write clean, overridable methods without using arrow functions.
+
+<div style="text-align:center; width:100%;">
+<img src="https://img.shields.io/badge/v-1.0.1-blue" alt="Typescript" />
+<a href="https://github.com/alessioVelluso/av-autobind/stargazers">
+  <img src="https://img.shields.io/github/stars/alessioVelluso/av-autobind?style=social" alt="GitHub stars" />
+</a>
+</div>
+
+<div style="text-align:center; width:100%; margin-bottom: 20px;">
+
+</div>
+
+
+> *A tiny utility to automatically bind class methods to their instance, allowing you to write clean, overridable methods without using arrow functions.*
 
 ## ✨ Why
 When you use arrow functions inside classes, they get bound to the instance automatically — which is great — but they also lose some of their behavior as proper class methods:
@@ -13,6 +26,11 @@ When you use arrow functions inside classes, they get bound to the instance auto
 
 ## ⚙️ Usage
 
+### Copy And Paste (good old solution)
+You can [copy the code directly from here](https://github.com/alessioVelluso/av-autobind/blob/master/package/autobind.ts) and paste in your ts/js file.
+> Remove any types in the js file)
+
+### Install as package
 ```
 npm install av-autobind
 ```
