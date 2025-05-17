@@ -1,0 +1,34 @@
+{
+  "name": "av-autobind",
+  "version": "1.0.0",
+  "author": "Alessio Velluso",
+  "license": "MIT",
+  "description": "A function that automatically binds your methods to the class instance.",
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "@typescript-eslint/eslint-plugin": "^6.18.1",
+    "@typescript-eslint/parser": "^6.18.1",
+    "eslint": "^8.56.0",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.1.0",
+    "typescript": "^5.3.3"
+  },
+  "repository": {
+    "url": "https:github.com/alessioVelluso/av-autobind.com"
+  },
+  "main": "dist/autobind.js",
+  "module": "dist/autobind.mjs",
+  "types": "dist/autobind.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/autobind.mjs",
+      "require": "./dist/autobind.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+
+  ]
+}
