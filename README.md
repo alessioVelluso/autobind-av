@@ -1,9 +1,9 @@
-# av-autobind
+# autobind-av
 
 <div style="text-align:center; width:100%;">
-<img src="https://img.shields.io/badge/v-1.0.1-blue" alt="Typescript" />
-<a href="https://github.com/alessioVelluso/av-autobind/stargazers">
-  <img src="https://img.shields.io/github/stars/alessioVelluso/av-autobind?style=social" alt="GitHub stars" />
+<img src="https://img.shields.io/badge/v-1.0.2-blue" alt="Typescript" />
+<a href="https://github.com/alessioVelluso/autobind-av/stargazers">
+  <img src="https://img.shields.io/github/stars/alessioVelluso/autobind-av?style=social" alt="GitHub stars" />
 </a>
 </div>
 
@@ -27,16 +27,16 @@ When you use arrow functions inside classes, they get bound to the instance auto
 ## ⚙️ Usage
 
 ### Copy And Paste (good old solution)
-You can [copy the code directly from here](https://github.com/alessioVelluso/av-autobind/blob/master/package/autobind.ts) and paste in your ts/js file.
+You can [copy the code directly from here](https://github.com/alessioVelluso/autobind-av/blob/master/package/autobind.ts) and paste in your ts/js file.
 > Remove any types in the js file)
 
 ### Install as package
 ```
-npm install av-autobind
+npm install autobind-av
 ```
 
 ```ts
-import { autobind } from "av-autobind";
+import { autobind } from "autobind-av";
 
 class MyClass {
     private label = "Bound";
